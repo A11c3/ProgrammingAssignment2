@@ -1,0 +1,28 @@
+library(datasets)
+data(iris)
+?iris
+summary(iris)
+apply(iris[, 1:4], 2, mean)
+data(mtcars)
+summary(mtcars)
+sapply(split(mtcars$mpg, mtcars$cyl), mean)
+head(mtcars)
+sapply(split(mtcars$mpg, mtcars$cyl), sum)
+apply(mtcars, 2, mean)
+split(mtcars, mtcars$cyl)
+sapply(mtcars, cyl, mean)
+sapply(split(mtcars$mpg, mtcars$cyl), sum)
+sapply(split(mtcars$hp, mtcars$cyl), sum)
+d = sapply(split(mtcars$hp, mtcars$cyl), sum)
+d
+dim(d)
+d[1]
+(d[1] - dim[3])
+(d[1] - d[3])
+abs(d[1] - d[3])
+debug(ls)
+ls()
+n
+n
+q
+q
